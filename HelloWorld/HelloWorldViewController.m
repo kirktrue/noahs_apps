@@ -1,4 +1,4 @@
-//
+    //
 //  HelloWorldViewController.m
 //  HelloWorld
 //
@@ -9,6 +9,7 @@
 #import "HelloWorldViewController.h"
 
 @interface HelloWorldViewController ()
+- (IBAction)changeGreeting:(id)sender;
 
 @end
 
@@ -31,4 +32,6 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)changeGreeting:(id)sender {
+}
 @end
